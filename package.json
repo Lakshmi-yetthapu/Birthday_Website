@@ -1,19 +1,27 @@
 {
-  "name": "birthday-surprise",
+  "name": "birthday-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Birthday celebration website",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build"
+    "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "birthday",
+    "website",
+    "vite"
+  ],
+  "author": "Lakshmi",
+  "license": "MIT",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.21"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
